@@ -1,7 +1,24 @@
 aid: citizen
 name: Citizen
-description: Citizen is a company surfaced as a portfolio company of 8vc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Citizen is a consumer public-safety mobile application that delivers real-time,
+  location-based safety alerts and incident notifications to users about events happening in
+  their communities. The app surfaces verified alerts, live video streamed by witnesses at the
+  scene, incident search, and community broadcast features to help people connect and stay safe.
+  Backed by 8vc, Citizen positions itself as the leading public-safety app in the United States.
+  It is a consumer product with no public developer program, API documentation, SDK, or developer
+  portal exposed on its website as of this enrichment pass.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://images.prismic.io/citizen-site/ea51fded-bedd-482d-85b6-0ae1b743d636_Thumbnail+-+Invite.png?auto=compress,format
 url: https://raw.githubusercontent.com/api-evangelist/citizen/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Public Safety
+- Safety
+- Mobile Application
+- Location Based Services
+- Real Time Alerts
+- Consumer
+- Emergency
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/citizen-domain-security.yml
 - type: Website
   url: https://citizen.com
+- type: Support
+  url: https://support.citizen.com/
+- type: TermsOfService
+  url: https://citizen.com/privacy/tos
+- type: PrivacyPolicy
+  url: https://citizen.com/privacy
+- type: Blog
+  url: https://medium.com/citizen
+- type: About
+  url: https://citizen.com/about
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
