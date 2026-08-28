@@ -7,6 +7,17 @@ description: Citizen is a consumer public-safety mobile application that deliver
   Backed by 8vc, Citizen positions itself as the leading public-safety app in the United States.
   It is a consumer product with no public developer program, API documentation, SDK, or developer
   portal exposed on its website as of this enrichment pass.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
