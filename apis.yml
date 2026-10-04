@@ -44,7 +44,7 @@ tags:
 - Company
 - Public Safety
 - Safety
-- Mobile Applications
+- Mobile App
 - Location Based Services
 - Real Time Alerts
 - Consumer
@@ -58,6 +58,7 @@ tags_raw:
 - Real Time Alerts
 - Consumer
 - Emergency
+- Mobile Applications
 apis: []
 maintainers:
 - FN: Kin Lane
